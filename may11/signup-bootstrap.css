@@ -1,0 +1,12 @@
+.container{
+    height: 100vh;
+}
+.row{
+    height: 100vh;
+}
+
+form{
+    background-color: lightblue;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px gray;
+}

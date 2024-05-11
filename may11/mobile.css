@@ -1,0 +1,44 @@
+*{
+    font-size: 16px;
+}
+
+#xyz{
+    transform: translate(20px, 20px);
+}
+img{
+    width: 50%;
+}
+p:hover{
+    background-color: gray;
+}
+
+p{
+    border: 3px solid red;
+    padding: 5px;
+    text-align: justify;
+    font-size: 10px;
+}
+p>strong{
+    font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 480px){
+    img{
+        width: 25%;
+        transition: width 0.5s;
+    }
+    img:hover{
+        width:50%;
+    }
+}
+
+@media only print {
+    img {
+        visibility: hidden;
+    }
+}
+
+#mydiv{
+    height: 100px;
+    background-image: linear-gradient(to left, gray, blue);
+}

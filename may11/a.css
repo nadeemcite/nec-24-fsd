@@ -1,0 +1,44 @@
+li{
+    font-size: 26px;
+}
+
+#firstheading{
+    color:green;
+}
+
+#secondheading{
+    color: blue;
+}
+
+h2{
+    font-size: 30px;
+    color: gray;
+    
+}
+.topicsonpage{
+    text-align: center;
+}
+
+input[type=text]{
+    font-size: 50px;
+}
+
+table, tr, td, th{
+    border: 1px solid;
+    border-collapse: collapse;
+    color:#DD761C;
+}
+
+th{
+    background-color: #6DC5D1;
+}
+
+tr:nth-child(odd){
+    background-color: #FDE49E;
+}
+tr:nth-child(even){
+    background-color: #FEB941;
+}
+td, th{
+    padding: 5px;
+}
