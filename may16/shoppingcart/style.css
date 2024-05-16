@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+}
+#productList, #cart{
+    border: 1px solid gray;
+    padding: 20px;
+    width:300px;
+}
+
+button{
+    display: block;
+    margin-bottom: 20px;
+}
+
+#cartItems{
+    list-style-type: none;
+}
+
+#totalPrice{
+    font-weight: bold;
+    font-size: 1.5em;
+}
