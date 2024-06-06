@@ -1,0 +1,13 @@
+{
+    "posts": [
+      { "id": 1, "title": "json-server", "content": "Content for 1", "author": "typicode" },
+      { "id": 2, "title": "Different Title", "content": "Content for 2", "author": "different author"}
+    ],
+    "comments": [
+        { "id": 1,"title":"t1", "body": "some comment1", "postId": 1 },
+        { "id": 2,"title":"t2", "body": "some comment2", "postId": 1 },
+        { "id": 3,"title":"t3", "body": "some comment3", "postId": 2 },
+        { "id": 4,"title":"t4", "body": "some comment4", "postId": 2 }
+    ],
+    "profile": { "name": "typicode" }
+  }
